@@ -1,2 +1,1 @@
-SELECT COUNT(*) FROM dev.default_staging.stg_job_postings;
-SELECT COUNT(*) FROM dev.default_staging.stg_job_skills;
+DROP SCHEMA dev.default_staging CASCADE;

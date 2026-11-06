@@ -33,7 +33,7 @@ WHERE error IS NOT TRUE
     {% for keyword in extension_keywords -%}
     ARRAY_CONTAINS(
         job_extensions, '{{ keyword }}'
-        ) AS has_{{ keyword |  lower | replace(' ', '_') }}
+        ) AS has_{{slugify(keyword) }}
         {{- "," if not loop.last}}
     {% endfor %}
 FROM  parsed
