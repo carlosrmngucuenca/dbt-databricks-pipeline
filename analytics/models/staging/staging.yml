@@ -20,6 +20,8 @@ models:
         description: Employer name, trimmed.
       - name: job_location
         description: Posting location as scraped.
+      - name: source_platform
+        description: Posting source platform, scraped as 'via <platform>' and trimmed to just the
       - name: job_schedule_type
         description: As scraped; 12,252 nulls stay null - documented, not fixed.
       - name: job_work_from_home

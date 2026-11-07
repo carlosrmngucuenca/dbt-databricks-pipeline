@@ -1,1 +1,1 @@
-DROP SCHEMA dev.default_staging CASCADE;
+DROP TABLE IF EXISTS dev.default.skill_categories;
