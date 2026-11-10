@@ -12,7 +12,7 @@ snapshots:
         - job_location
         - job_schedule_type
         - job_work_from_home
-        - slary_min
+        - salary_min
         - salary_max
         - salary_period
         - salary_currency
