@@ -25,7 +25,7 @@ A production dbt pipeline on **Databricks** over 843,097 raw job-posting scrapes
 
 Raw scrapes flow through the medallion layers — raw → staging → intermediate → the star-schema marts — while snapshots capture history off staging. The lineage graph below is every model dbt builds:
 
-![dbt lineage graph](img/lineage.png)
+![dbt lineage graph](img/Lineage_dbt_databricks.jpg)
 
 And the dbt features doing the work:
 
@@ -68,7 +68,7 @@ The marts keep each job's **latest** scrape — the snapshot table keeps **every
 
 Structure, tests, and column descriptions were written along the way — the docs site is a rendering of work already done:
 
-**→ [lukebarousse.github.io/dbt_Analytics_Engineering_Course/project2/](https://lukebarousse.github.io/dbt_Analytics_Engineering_Course/project2/)**
+**→ [carlosrmngucuenca.github.io/dbt-databricks-pipeline/](https://carlosrmngucuenca.github.io/dbt-databricks-pipeline/)**
 
 The site shows:
 
